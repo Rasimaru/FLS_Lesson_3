@@ -1,0 +1,52 @@
+@import "nullstyle.css";
+
+* {
+	color: black;
+}
+
+p {
+	color: rgb(78, 78, 78);
+}
+
+span {
+	color: aquamarine;
+}
+
+h1 {
+	color: red;
+}
+
+h2 {
+	color: rgb(20, 245, 50);
+}
+
+mark {
+	color: rgb(253, 82, 2);
+}
+
+[href*="#section-"] {
+	color: rgb(247, 231, 9);
+}
+
+a {
+	color: rgb(231, 43, 222);
+}
+
+.part-3 > p {
+	color: rgb(0, 204, 255);
+}
+
+ol > li > span {
+	color: rgb(255, 0, 0);
+}
+
+ol.list li {
+	color: rgb(153, 0, 255);
+}
+
+ol.list li > ul li {
+	color: rgb(255, 145, 0);
+}
+.distrib > p {
+	color: cyan;
+}
